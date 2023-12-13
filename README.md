@@ -34,7 +34,7 @@ Ha: 𝜃 < 0
 
 This is the distribution of differences in RMSE between high and low calorie recipes from generating random samples under the null hypothesis.
 
-<iframe src="fig_1.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/fig_1.html" width=800 height=600 frameBorder=0></iframe>
 
 
 With a p-value of 0.0 for 1000 trials, we were able to reject the null hypothesis. We were therefore able to conclude that it is very statistically likely that the model predicts at a lower RMSE for low-calorie recipes as compared to high-calorie recipes. As explained in the reasoning behind the alternative hypothesis, there were more low-calorie recipes, which we believe led to the results. Furthermore, there was a greater spread of saturated fat content observed in higher-calorie recipes, with a standard deviation of 172.76% DV, as compared to low-calorie recipes (standard deviation of 26.02% DV), which we believe was another factor in the differences in the distributions of prediction errors. 
